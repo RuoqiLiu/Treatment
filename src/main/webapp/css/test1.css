@@ -1,0 +1,168 @@
+@charset "utf-8";
+*{margin:0px; padding:0px;}
+#navbar {
+	position: relative;
+	width: 1350px;
+	height: 56px;
+	background-color: #9D2932;
+	border-bottom:2px solid #EFDEB0;
+	box-shadow:0 0 5px #EFDEB0;
+	}
+#navbar ul{
+	position:relative;
+	left:20px;
+}
+#navbar ul li{
+	float:left; 
+	list-style:none;
+	position:relative;
+	}
+#navbar ul li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 17px;
+	color: #EFDEB0; /*word`s color*/
+	font-size: 20px;
+	font-family: STKaiti;
+	font-weight:600;} 
+.icon{
+	position:relative;
+	float:right;
+	right:35px;
+}
+
+
+
+#container{
+	position:relative;
+}
+
+#search{
+	position:absolute;
+	top:8px;
+	left:354px;
+	display:flex;
+	text-align:center;
+	width:650px;
+	background-color:#fff;}
+
+.searchIcon{
+	margin-top:27px;
+}
+.searchInput {
+	position:relative;
+	margin-top:35px;
+	margin-left:5px;
+	width: 400px;
+	height: 30px;
+	border: 1px solid #999;
+	padding: 0 4px;
+}
+.searchList {
+	position: relative;
+	width: 400px;
+	background-color: #fcfcfc;
+	border:1px solid gray;
+	display: block;
+}
+
+/*.searchList div {*/
+	/*cursor: pointer;  !*鼠标手势*!*/
+/*}*/
+.searchBtn{
+	position:relative;
+	background-color:#9D2932;
+	border:1px solid #9D2932;
+	color:#EFDEB0;
+	cursor:pointer;
+	width:120px;
+	height:32px;
+	margin-top:35px;
+}
+
+#sidebar{
+	display:block;
+	width:240px;
+	top:100px;
+	left:40px;
+	height:auto;
+	overflow:visible;
+	position:relative;
+	border-radius:8px;
+	background-color:#9D2932;}
+.all{
+	height:50px;
+	display:flex;
+	padding-left:10px;
+	padding-top:20px;}
+.all_text{
+	margin-left:20px;
+	font-size:21px;
+	color:#EFDEB0;
+	font-weight:500;
+	line-height:20px;}
+.sidebar_main dt{
+	display:block;
+	position:relative;
+	padding-left:60px;
+	background-color:#9D2932;
+	color:#EFDEB0;
+	font-size:16px;
+	line-height:50px;
+	cursor:pointer;
+	}
+.sidebar_main dt img{
+	position:absolute;
+	right:40px;
+	top:18px;
+}
+.sidebar_main dd{
+	background-color:#9C333C;
+	height:auto;
+	padding-left:60px;}
+.sidebar_main dd a{
+	color:#EFDEB0;
+	text-decoration:none;
+	line-height:20px;}
+.sidebar_main dl dd:last-child{
+	padding-bottom:10px;
+}
+.show-row:hover{
+	background-color: #f5f6f7;
+}
+
+#MedicineShow{
+	display:block;
+	width:642px;
+	top:150px;
+	left:400px;
+	height:auto;
+	overflow:visible;
+	position:absolute;
+	background-color:#fff;
+	z-index:-1
+}
+table{
+	position:relative;
+	height:auto;
+	border:1px solid #9C333C;
+}
+tr{
+	line-height:25px;
+	height:auto;
+}
+th{
+	background-color:#9C333C;
+	color:#EFDEB0;
+	border:1px solid #9C333C;
+	font-size:16px;
+	width:70px;
+}
+td{
+	background-color:#fff;
+	border:1px solid #9C333C;
+	width:550px;
+	font-size:16px;
+}
+
